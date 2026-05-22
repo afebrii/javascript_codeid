@@ -1,7 +1,7 @@
 // 1. FindMinMax
 const inputData = [2, 3, 4, 5, 6, 7, 8, 9, 1, 10];
 
-function findMinMaxModern(arr) {
+function findMinMax(arr) {
     if (arr.length === 0) return [];
         const min = Math.min(...arr);
     const max = Math.max(...arr);
@@ -10,7 +10,7 @@ function findMinMaxModern(arr) {
 }
 
 console.log("Input:", inputData);
-console.log("Result:", findMinMaxModern(inputData)); 
+console.log("Result:", findMinMax(inputData)); 
 
 
 // 2. FindMinumRange
@@ -30,26 +30,26 @@ console.log("Result 2:", findMinRange(inputData, 0, 7));
 // 3. ReverseList
 const inputData = [1, 2, 3, 4];
 
-function reverseListModern(arr) {
+function reverseList(arr) {
     return [...arr].reverse();
 }
 
 console.log("Input:", inputData);
-console.log("Result:", reverseListModern(inputData)); 
+console.log("Result:", reverseList(inputData)); 
 
-// // 4. FrequestElement
+// 4. FrequestElement
 const inputData1 = [1, 2, 3, 4, 4, 4, 3, 3, 2, 4];
 const inputData2 = [1, 1, 1, 2, 2, 3, 3, 3];
 
-function frequentElementModern(arr) {
+function frequentElement(arr) {
     return arr.reduce((acc, curr) => {
         acc[curr] = (acc[curr] || 0) + 1;
         return acc;
     }, {});
 }
 
-console.log("Result 1:", frequentElementModern(inputData1)); 
-console.log("Result 2:", frequentElementModern(inputData2)); 
+console.log("Result 1:", frequentElement(inputData1)); 
+console.log("Result 2:", frequentElement(inputData2)); 
 
 // 5. Addition
 const list1A = [1, 2, 3];
