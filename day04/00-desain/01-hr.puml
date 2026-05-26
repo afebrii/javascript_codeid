@@ -1,0 +1,16 @@
+@startuml 01-hr
+    class Employee{
+        - int empId
+        - string fullName
+        - Date hireDate
+        - double salary
+        - role
+        ---
+        + setSalary(newSalary)
+        + getSalary()
+        + getMasaKerja()
+        + getFormatSalary()
+        + getHireDate()
+        + toString()
+    }
+@enduml

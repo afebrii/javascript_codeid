@@ -3,7 +3,7 @@
 //     console.log(i);    
 // };
 
-//2. gunakan mod 3 & 5
+// 2. gunakan mod 3 & 5
 // for (let i = 1; i <= 15; i++) {
 //     if (i % 3 === 0 && i % 5 === 0) {
 //         console.log("FullStack")
@@ -17,7 +17,7 @@
 //     }
 // }
 
-// //3. kita jadikan functions
+//3. kita jadikan functions
 // function fullStack(n) {
 //     for (let i = 1; i <= n; i++) {
 //         if (i % 3 === 0 && i % 5 === 0) {
